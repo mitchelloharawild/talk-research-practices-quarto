@@ -1,0 +1,54 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Research Practices: Quarto
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Slides and notes for a short workshop given to research students at Monash University (29th September 2023) in Melbourne, Australia.
+
+<!-- A recording of this presentation is available on YouTube here: <https://www.youtube.com/watch?v=> -->
+
+<!-- [![](preview.jpg)](https://www.youtube.com/watch?v=) -->
+
+#### Abstract
+
+Reproducible research and science communication are enhanced by literate programming tools like Quarto. Reproducible research ensures that scientific findings can be easily validated, a crucial prerequisite for credible science communication. Leveraging literate programming with Quarto takes this a step further by allowing researchers to create interactive, narrative-driven documents that seamlessly combine code, data, and explanations. Such documents not only enhance the transparency and replicability of research but also facilitate effective science communication by providing a unified platform for conveying complex ideas. Quarto documents can easily be shared in a variety of formats for publishing to journals, presenting talks, and running websites. This provides many options to engage peers and the general public with scientific findings, methods, and implications. 
+
+In this workshop I will lead a discussion into the important research practices of academic writing and branding, introduce the core concepts of literate programming with Quarto, and help you create and publish a Quarto website.
+
+#### Structure
+
+* Academic writing tools (word, latex, beamer, rmarkdown, quarto, etc.)
+* Reproducibility and communication of science
+* Personal branding and online presence (personal website)
+* Templates and styles for academic work (journals, slides, monash, etc.)
+* Quarto basics (yaml front matter, chunks, output formats, options)
+* Quarto content (figures, captions, citations, math, etc.)
+* Create and deploy a Quarto website (or slides)
+
+### Pre-requisites
+
+To follow along with the activities in the workshop, you will need a laptop computer with
+
+* A recent version of R (>= 4.1.0)
+* A recent version of RStudio (>= 2023.06.0)
+
+To publish your website or slides made with Quarto, you will also need:
+
+* A GitHub account (<https://github.com/login>)
+
+### Format
+
+2 hour workshop.
