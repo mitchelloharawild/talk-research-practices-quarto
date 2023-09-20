@@ -55,6 +55,11 @@ laptop computer with
 To publish your website or slides made with Quarto, you will also need:
 
 - A GitHub account (<https://github.com/login>)
+- Authenticate git with GitHub
+  (<https://docs.github.com/en/get-started/quickstart/set-up-git#authenticating-with-github-from-git>)
+
+Try to authenticate GitHub before the session, but if you have trouble
+with this there might be time to help with it on the day.
 
 ### Format
 
