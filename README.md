@@ -12,7 +12,7 @@ Monash University (29th September 2023) in Melbourne, Australia.
 <!-- A recording of this presentation is available on YouTube here: <https://www.youtube.com/watch?v=> -->
 <!-- [![](preview.jpg)](https://www.youtube.com/watch?v=) -->
 
-#### Abstract
+### Abstract
 
 Reproducible research and science communication are enhanced by literate
 programming tools like Quarto. Reproducible research ensures that
@@ -33,7 +33,7 @@ practices of academic writing and branding, introduce the core concepts
 of literate programming with Quarto, and help you create and publish a
 Quarto website.
 
-#### Structure
+### Structure
 
 - Academic writing tools (word, latex, beamer, rmarkdown, quarto, etc.)
 - Reproducibility and communication of science
