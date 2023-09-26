@@ -1,0 +1,198 @@
+[
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "",
+    "section": "",
+    "text": "Research practices: Quarto\n\n\n27th September 2023 @ Monash University 2023\n\n\nMitchell O’Hara-Wild\n\n\n\n\n\n\nUseful links\n\n\n social.mitchelloharawild.com\n slides.mitchelloharawild.com/research-practices-quarto\n mitchelloharawild/talk-research-practices-quarto"
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "",
+    "section": "",
+    "text": "Workshop format\n\n\n\n\n\n\nExpectations\n\n\n\nThis is an informal workshop about quarto and more\nI will point you toward useful online resources\nWe will create Quarto documents together\nPlease interrupt if you have questions or comments\n\n\n\n\n\n\n\n\n\n\n\nGoals\n\n\n\nThink about the breadth of science communication\nDiscuss the tools we use to write about research\nLearn the basics of markdown and Quarto\nCreate a personal website using Quarto"
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "",
+    "section": "",
+    "text": "Workshop format\n\n\n\n\n\n\nPre-requisites\n\n\nTo follow along with the activities in the workshop, you will need a laptop computer with\n\nA recent version of R (>= 4.1.0)\nA recent version of RStudio (>= 2023.06.0)\n\nTo publish your website or slides made with Quarto, you will also need:\n\nA GitHub account (https://github.com/login)\nAuthenticate git with GitHub (https://docs.github.com/en/get-started/quickstart/set-up-git#authenticating-with-github-from-git)"
+  },
+  {
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
+    "title": "",
+    "section": "",
+    "text": "Science communication\n\n\n\n\n\n\nNot just Quarto\n\n\nSharing science is perhaps the most important practice in everyday research.\n\n\n\n\n\n\n\n\n\n\nScience communication is more than papers\n\n\nHow else can you share your research?\n\n\n\n\n\n\n\n\n\n\nQuarto is a useful tool for science communication, which we will focus on."
+  },
+  {
+    "objectID": "index.html#section-4",
+    "href": "index.html#section-4",
+    "title": "",
+    "section": "",
+    "text": "Sharing research\n\n\n\n\n\n\n\n\nTypical research sharing formats\n\n\n\nJournal articles\nConversations\nPresentations\nPosters\nWebsites\nTeaching\nSoftware packages\nEmails/letters"
+  },
+  {
+    "objectID": "index.html#section-5",
+    "href": "index.html#section-5",
+    "title": "",
+    "section": "",
+    "text": "Sharing research\n\n\n\n\n\n\n\n\nMy usual research outputs\n\n\n\nJournal articles\nConversations\nPresentations\nPosters\nWebsites\nTeaching\nSoftware packages\nEmails/letters"
+  },
+  {
+    "objectID": "index.html#section-6",
+    "href": "index.html#section-6",
+    "title": "",
+    "section": "",
+    "text": "Sharing research\n\n\n\n\n\n\n\n\nNot just science\n\n\nSelf-promotion is important for success.\nStrong personal branding helps to find collaborators and produce research that is used by others.\n\nThink about how you share your work and how you can build your personal brand."
+  },
+  {
+    "objectID": "index.html#section-7",
+    "href": "index.html#section-7",
+    "title": "",
+    "section": "",
+    "text": "Elevator pitches\n\n\nA brief (< 1 minute) introduction about you.\n\n\n\n\n\n\n\nInclude\n\n\n\n\n\nWho you are\nWhat you do\n\n\n\nRelevant experience/skills\nPrompt future discussion\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAvoid\n\n\n\n\n\nIrrelevant info\n\n\n\nOverpolish\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome tips\n\n\n\n\n\nPractice\n\n\n\nKeep it brief"
+  },
+  {
+    "objectID": "index.html#section-8",
+    "href": "index.html#section-8",
+    "title": "",
+    "section": "",
+    "text": "Elevator pitches\n\n\n\n\n\n\n\n\n\nMy elevator pitch for today\n\n\n\nWho I am:\n\nMitchell O’Hara-Wild\nPhD student and RA at Monash University\nConsultant at Nectric\n\n\nWhat I do:\n\nI share my time series research with software and talks\n\n\n\nRelevant experiences:\n\nI improve the R Journal’s accessibility & reproducibility\nLately I’ve been writing slides and papers with Quarto\n\n\n\nDiscussion prompt:\n\nWhat are you hoping to learn today?\n\n\n\n\n\n\n\n\n\n\n\n−+\n01:00"
+  },
+  {
+    "objectID": "index.html#section-9",
+    "href": "index.html#section-9",
+    "title": "",
+    "section": "",
+    "text": "Elevator pitches\n\n\n\n\n\n\n\n\nYour elevator pitch\n\n\nPair up and introduce yourself with a pitch.\nScenario: meeting a complete stranger at this workshop\n\n\n\n\n\n\n\n\n\n\nMore tips\n\n\n\nConsider the context and stay relevant to the scenario.\nBe brief, but specific.\nAvoid technical jargon.\n\n\n\n\n\n\n\n\n\n\n−+\n03:00"
+  },
+  {
+    "objectID": "index.html#section-10",
+    "href": "index.html#section-10",
+    "title": "",
+    "section": "",
+    "text": "Tools for academic writing\n\n\n\n\n\n\nWhich software can you use to write papers?\n\n\n\n\nMicrosoft Word\nLaTeX\nR Markdown\nQuarto\n\n\n\n\n\n\n\n\n\n\n\n\nConsider this…\n\n\nHow does software change how you collaborate?"
+  },
+  {
+    "objectID": "index.html#section-15",
+    "href": "index.html#section-15",
+    "title": "",
+    "section": "",
+    "text": "Tools for academic writing\n\n\n\n\n\n\nHow do you manage your references?\n\n\n\n\nZotero\nPaperpile\nMendeley\nEndnote\nPlain-text"
+  },
+  {
+    "objectID": "index.html#section-19",
+    "href": "index.html#section-19",
+    "title": "",
+    "section": "",
+    "text": "References in RStudio"
+  },
+  {
+    "objectID": "index.html#section-20",
+    "href": "index.html#section-20",
+    "title": "",
+    "section": "",
+    "text": "Literate programming\n\n\nWriting with embedded code to produce figures, tables and other output.\n\n\n\n\n\n\nA perfect match for science\n\n\n\nIdeal for reproducible articles\nQuickly switch between output formats\n\n\n\n\n\n\n\n\n\n\n\nWhy Quarto?\n\n\n\n\n\nActively developed\nLanguage agnostic\n\n\n\nBetter referencing\nMore consistent\n\n\n\nFortunately, it’s not complicated to switch!"
+  },
+  {
+    "objectID": "index.html#section-21",
+    "href": "index.html#section-21",
+    "title": "",
+    "section": "",
+    "text": "Hello, Quarto\n\nArtwork from “Hello, Quarto” keynote by Julia Lowndes and Mine Cetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."
+  },
+  {
+    "objectID": "index.html#section-22",
+    "href": "index.html#section-22",
+    "title": "",
+    "section": "",
+    "text": "Hello, Quarto (and pandoc!)\n\n  \nhttps://quarto.org/docs/get-started/hello/rstudio.html"
+  },
+  {
+    "objectID": "index.html#section-23",
+    "href": "index.html#section-23",
+    "title": "",
+    "section": "",
+    "text": "Hello, Quarto (demo)\n\n\n\nhttps://quarto.org/docs/get-started/hello/rstudio.html"
+  },
+  {
+    "objectID": "index.html#section-24",
+    "href": "index.html#section-24",
+    "title": "",
+    "section": "",
+    "text": "Templates for Journal articles\n\nhttps://github.com/quarto-journals"
+  },
+  {
+    "objectID": "index.html#section-25",
+    "href": "index.html#section-25",
+    "title": "",
+    "section": "",
+    "text": "Templates for Monash University\n\nhttps://github.com/numbats"
+  },
+  {
+    "objectID": "index.html#section-26",
+    "href": "index.html#section-26",
+    "title": "",
+    "section": "",
+    "text": "Quarto Manuscripts\n\nA Quarto project for academic work\nProvides a place for multiple formats\n\n(coming soon!)\n\n\n\n\n\n\nMore information\n\n\n\nhttps://quarto.org/docs/manuscripts/\nhttps://mine.quarto.pub/manuscripts-conf23"
+  },
+  {
+    "objectID": "index.html#section-27",
+    "href": "index.html#section-27",
+    "title": "",
+    "section": "",
+    "text": "Quarto can do lots!\nIncluding…\n\nProvide interactive elements\nProduce slides (like this one!)\nMake websites\nMuch more…\n\n\n\n\n\n\n\nThe ultimate Quarto resources\n\n\n\nhttps://quarto.org/docs/guide/\nhttps://github.com/mcanouil/awesome-quarto"
+  },
+  {
+    "objectID": "index.html#section-28",
+    "href": "index.html#section-28",
+    "title": "",
+    "section": "",
+    "text": "Developing your academic brand\n\n\n\n\n\n\nPromoting you and your research\n\n\n\nIncreases opportunity\nMore attention for your work\nBroader application of your research\n\n\n\n\n\n\n\n\n\n\n\nYour online brand with Quarto\n\n\nToday we’ll make a website to share research with Quarto\n\nA Quarto website contains many .qmd files.\nTypically there is one file per webpage or post."
+  },
+  {
+    "objectID": "index.html#section-29",
+    "href": "index.html#section-29",
+    "title": "",
+    "section": "",
+    "text": "Developing your academic brand\n\n\n\n\n\n\nExamples of websites from Monash\n\n\n\nRob (https://robjhyndman.com/)\nEaro (https://earo.me/, https://thesis.earo.me/)\nCynthia (https://www.cynthiahqy.com/)\n\n\n\n\n\n\n\n\n\n\n\nLet’s create your Quarto website\n\n\nhttps://quarto.org/docs/websites/"
+  },
+  {
+    "objectID": "index.html#section-30",
+    "href": "index.html#section-30",
+    "title": "",
+    "section": "",
+    "text": "Create your Quarto website\n\n\n\n\n\n\nSuggestions\n\n\n\nChange the landing page to use an ‘about’ template.\nAdd links to your social accounts\nAdvanced: Create a listing for your work (e.g. software)\n\n\n\n\n\n\n\n\n\n\nTips\n\n\n\nFocus on content for now, style can be added later\nLook at the source code of gallery examples you like\n\n\n\n\n\n\n\n\n\n\nUseful resources\n\n\n\nhttps://quarto.org/docs/websites/\nhttps://quarto.org/docs/gallery/#websites\n\n\n\n\n\n\n\n\n\n−+\n30:00"
+  },
+  {
+    "objectID": "index.html#section-31",
+    "href": "index.html#section-31",
+    "title": "",
+    "section": "",
+    "text": "Publishing your website\n\n\n\n\n\n\nShare your work with a broader audience\n\n\nThere are many publishing options for Quarto:\n\nhttps://quarto.org/docs/publishing/\n\n\n\n\n\n\n\n\n\n\nToday we’ll try GitHub Pages\n\n\nUsing GitHub pages works best with GitHub repositories.\n\nhttps://quarto.org/docs/publishing/github-pages.html\n\n\n\n\n\n\n\n\n\n\nPublishing to GitHub pages\n\n\nAfter setting up a git repo with GitHub remote, simply use:\nquarto publish gh-pages"
+  },
+  {
+    "objectID": "index.html#thanks-for-your-time",
+    "href": "index.html#thanks-for-your-time",
+    "title": "",
+    "section": "Thanks for your time!",
+    "text": "Thanks for your time!\n\n\n\n\n\n\n\n\nFinal remarks\n\n\n\nThink about how you share your research.\nBuild your website and personal brand.\n\n\n\n\n\n\n\n\n\n\nUseful links\n\n\n social.mitchelloharawild.com\n slides.mitchelloharawild.com/research-practices-quarto\n mitchelloharawild/talk-research-practices-quarto"
+  },
+  {
+    "objectID": "index.html#unsplash-credits",
+    "href": "index.html#unsplash-credits",
+    "title": "",
+    "section": "Unsplash credits",
+    "text": "Unsplash credits\n\n\n\n\n\n\nThanks to these Unsplash contributors for their photos\n\n\n\n\n\namjd rdwan: beautiful colors\nHenry Be: The Library of Trinity College\nMax Saeling: Photo\nIsabela Kronemberger: set of tools\nSander Weeteling: Photo\nChris Lee: Behind the leaves.\nDavid Pisnoy: Photo"
+  },
+  {
+    "objectID": "structure.html",
+    "href": "structure.html",
+    "title": "",
+    "section": "",
+    "text": "Brief about me\n\nPhD student\nR Journal\nResearch contributions (software, presentations, papers, etc.)\n\n\n\nCommunication ice breaker\nPair up and give a 60 second elevator pitch about you and your research\n\n\nWorkshop structure\nOrganisation and goals:\n\nResearch communication\nWriting tools\nIntro to Quarto\nHands on with Quarto\n\n\n\nOther slides\n\nMine, Cynthia, Rob’s.\n\n\n\nThis session is about quarto\n\nNot about how to write\nIt’s about how you write\n\n\n\nResearch practices: communication\nRoyal Society - proceedings (history) Quarto manuscripts\nhttps://github.com/quarto-journals\n\n\nAcademic writing tools (word, latex, pptx, beamer, rmarkdown, quarto, etc.)\n\nHow do you write about your research?\nYour assignment?\nHow do you collaborate?\nRefmanager - paperpile (paid sub $3/mth), zotero (opensource), Mendeley, > Rob’s slides on GitHub (https://github.com/robjhyndman/ResearchHabits)\n\n\n\nLiterate programming\n\nRmd/ipnby/quarto\n\n\n\nReproducibility and communication of science\n\nConferences\nJournals\nPeer review\n\n\n\nPersonal branding and online presence (personal website)\n\nHyndman (https://robjhyndman.com/)\nEaro (https://earo.me/, https://thesis.earo.me/)\nCynthia (https://www.cynthiahqy.com/)\n\n\n\nTemplates and styles for academic work (journals, slides, monash, etc.)\n\nSummarise the complex variety of journal styles (citations, margins, font size, etc)\n\n\n\nQuarto basics (yaml front matter, chunks, output formats, options)\n\nQuarto vs R Markdown\n\n\n\nQuarto content (figures, captions, citations, math, etc.)\n\nhttps://quarto.org/docs/authoring/figures.html\n\n\n\nCreate and deploy a Quarto website (or slides)\n\nquarto render file\nquarto publish gh-pages"
+  }
+]
