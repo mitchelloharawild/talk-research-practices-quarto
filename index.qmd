@@ -1,0 +1,892 @@
+---
+from: markdown
+format: 
+  letterbox-revealjs:
+    css: [custom.css, hex.css, timeline.css]
+    progress: false
+    menu: false
+    width: 1280
+    height: 720
+callout-appearance: simple
+editor_options: 
+  chunk_output_type: console
+---
+
+## {}
+
+::: columns
+::: {.column width="40%"}
+:::
+::: {.column width="60%"}
+
+::: {.title data-id="title"}
+Research practices: Quarto
+:::
+
+::: {.dateplace}
+27th September 2023 @ Monash University 2023
+:::
+
+<br>
+
+##### Mitchell O'Hara-Wild
+
+::: {.callout-link}
+
+## Useful links
+
+![](resources/forum.svg){.icon} [social.mitchelloharawild.com](https://social.mitchelloharawild.com/)
+
+![](resources/projector-screen-outline.svg){.icon} [slides.mitchelloharawild.com/research-practices-quarto](https://slides.mitchelloharawild.com/research-practices-quarto)
+
+![](resources/github.svg){.icon} [mitchelloharawild/talk-research-practices-quarto](https://github.com/mitchelloharawild/talk-research-practices-quarto)
+
+:::
+
+:::
+:::
+
+<!-- ![](backgrounds/amjd-rdwan--MDJDYKQz6E-unsplash.jpg){.image-left} -->
+
+![](backgrounds/henry-be-lc7xcWebECc-unsplash.jpg){.image-left}
+
+## {}
+
+::: columns
+::: {.column width="40%"}
+:::
+::: {.column width="60%"}
+
+### Workshop format
+
+::: {.callout-tip}
+## Expectations
+
+* This is an **informal** workshop about quarto and more
+* I will point you toward useful **online resources**
+* We will **create Quarto documents** together
+* Please **interrupt** if you have questions or comments
+:::
+
+::: {.fragment}
+::: {.callout-pro}
+## Goals
+
+1. Think about the breadth of **science communication**
+2. Discuss **the tools** we use to write about research
+3. **Learn the basics** of markdown and Quarto
+4. **Create a personal website** using Quarto
+
+:::
+:::
+
+:::
+:::
+
+![](backgrounds/henry-be-lc7xcWebECc-unsplash.jpg){.image-left}
+
+## {}
+
+::: columns
+::: {.column width="40%"}
+:::
+::: {.column width="60%"}
+
+### Workshop format
+
+::: {.callout-note}
+## Pre-requisites
+
+To follow along with the activities in the workshop, you will need a laptop computer with
+
+* A recent version of R (>= 4.1.0)
+* A recent version of RStudio (>= 2023.06.0)
+
+To publish your website or slides made with Quarto, you will also need:
+
+* A GitHub account (<https://github.com/login>)
+* Authenticate git with GitHub (<https://docs.github.com/en/get-started/quickstart/set-up-git#authenticating-with-github-from-git>)
+:::
+
+:::
+:::
+
+![](backgrounds/henry-be-lc7xcWebECc-unsplash.jpg){.image-left}
+
+
+## {}
+
+::: columns
+::: {.column width="40%"}
+:::
+::: {.column width="60%"}
+
+### Science communication
+
+::: {.callout-tip}
+## Not just Quarto
+
+**Sharing science** is perhaps the most important practice in everyday research.
+
+:::
+
+::: {.fragment}
+::: {.callout-paper}
+## Science communication is more than papers
+
+How else can you share your research?
+
+<!-- * Conversations -->
+<!-- * Presentations -->
+<!-- * Posters -->
+<!-- * Websites -->
+<!-- * Software -->
+
+:::
+:::
+
+::: {.fragment}
+Quarto is a **useful tool** for science communication, which we will focus on.
+:::
+
+:::
+:::
+
+
+![](backgrounds/henry-be-lc7xcWebECc-unsplash.jpg){.image-left}
+
+
+## {}
+
+### Sharing research
+
+::: columns
+::: {.column width="60%"}
+::: {.callout-paper}
+
+## Typical research sharing formats
+
+* Journal articles
+* Conversations
+* Presentations
+* Posters
+* Websites
+* Teaching
+* Software packages
+* Emails/letters
+:::
+
+:::
+:::
+
+![](backgrounds/amjd-rdwan--MDJDYKQz6E-unsplash.jpg){.image-right}
+
+
+## {}
+
+### Sharing research
+
+::: columns
+::: {.column width="60%"}
+::: {.callout-paper}
+
+## My usual research outputs
+
+* Journal articles
+* **Conversations**
+* **Presentations**
+* Posters
+* Websites
+* Teaching
+* **Software packages**
+* Emails/letters
+:::
+
+:::
+:::
+
+![](backgrounds/amjd-rdwan--MDJDYKQz6E-unsplash.jpg){.image-right}
+
+
+## {}
+
+### Sharing research
+
+::: columns
+::: {.column width="60%"}
+::: {.callout-tip}
+
+## Not just science
+
+Self-promotion is important for success.
+
+Strong personal branding helps to find collaborators and produce research that is used by others.
+
+<br>
+
+Think about how you share your work and how you can build your personal brand.
+:::
+
+:::
+:::
+
+![](backgrounds/amjd-rdwan--MDJDYKQz6E-unsplash.jpg){.image-right}
+
+## {}
+
+### Elevator pitches
+
+::: columns
+::: {.column width="60%"}
+
+A brief (< 1 minute) introduction about you.
+
+::: {.fragment}
+::: {.callout-pro}
+
+## Include
+
+
+::: columns
+::: {.column width="300px"}
+* Who you are
+* What you do
+:::
+
+::: {.column width="300px"}
+* Relevant experience/skills
+* Prompt future discussion
+:::
+:::
+
+:::
+:::
+
+
+::: {.fragment}
+::: {.callout-con}
+
+## Avoid
+
+::: columns
+::: {.column width="300px"}
+* Irrelevant info
+:::
+
+::: {.column width="300px"}
+* Overpolish
+:::
+:::
+
+
+:::
+:::
+
+::: {.fragment}
+::: {.callout-tip}
+
+## Some tips
+
+::: columns
+::: {.column width="300px"}
+* Practice
+:::
+
+::: {.column width="300px"}
+* Keep it brief
+:::
+:::
+
+
+:::
+:::
+
+:::
+:::
+
+![](backgrounds/max-saeling-_CGxNOLM1gQ-unsplash.jpg){.image-right}
+
+## {}
+
+### Elevator pitches
+
+
+![](images/mitch.png){.sticker-float-midright}
+
+::: columns
+::: {.column width="60%"}
+
+::: {.callout-paper}
+
+## My elevator pitch for today
+
+::: {.fragment}
+
+*Who I am*:
+
+* **Mitchell O'Hara-Wild**
+* **PhD student** and RA at Monash University
+* **Consultant** at Nectric
+
+::: {.fragment}
+
+*What I do:*
+
+* I share my time series research with **software** and **talks**
+
+:::
+
+::: {.fragment}
+
+*Relevant experiences:*
+
+* I improve the R Journal's accessibility & reproducibility
+* Lately I've been writing **slides** and **papers** with **Quarto**
+
+:::
+
+::: {.fragment}
+
+*Discussion prompt:*
+
+* What are you hoping to learn today?
+
+:::
+
+:::
+:::
+
+:::
+:::
+
+```{r}
+countdown::countdown(minutes = 1, color_background = "white")
+```
+
+![](backgrounds/max-saeling-_CGxNOLM1gQ-unsplash.jpg){.image-right}
+
+## {}
+
+### Elevator pitches
+
+
+::: columns
+::: {.column width="60%"}
+
+::: {.callout-paper}
+
+## Your elevator pitch
+
+Pair up and introduce yourself with a pitch.
+
+Scenario: meeting a *complete stranger* at this workshop
+
+:::
+
+::: {.fragment}
+::: {.callout-tip}
+
+## More tips
+
+* Consider the context and stay relevant to the scenario.
+* Be brief, but specific.
+* Avoid technical jargon.
+
+:::
+:::
+
+:::
+:::
+
+```{r}
+countdown::countdown(minutes = 3, color_background = "white")
+```
+
+![](backgrounds/max-saeling-_CGxNOLM1gQ-unsplash.jpg){.image-right}
+
+
+## {}
+
+::: columns
+::: {.column width="40%"}
+:::
+::: {.column width="60%"}
+### Tools for academic writing
+
+::: {.callout-question}
+## Which software can you use to write papers?
+
+::: {.fragment}
+
+* [Microsoft Word]{.fragment}
+* [LaTeX]{.fragment}
+* [R Markdown]{.fragment}
+* [Quarto]{.fragment}
+
+:::
+:::
+
+::: {.fragment}
+::: {.callout-paper}
+## Consider this...
+
+How does software change how you collaborate?
+
+:::
+:::
+
+:::
+:::
+
+![](backgrounds/isabela-kronemberger-OegFhZfw6Ok-unsplash.jpg){.image-left}
+
+## {background-image="images/rob_word.png" background-size="contain"}
+
+![](images/rob.png){.sticker-float-right height=160 width=160}
+
+## {background-image="images/rob_latex.png" background-size="contain"}
+
+![](images/rob.png){.sticker-float-right height=160 width=160}
+
+## {background-image="images/rob_rmd.png" background-size="contain"}
+
+![](images/rob.png){.sticker-float-right height=160 width=160}
+
+## {background-image="images/rob_quarto.png" background-size="contain"}
+
+![](images/rob.png){.sticker-float-right height=160 width=160}
+
+
+## {}
+
+::: columns
+::: {.column width="40%"}
+:::
+::: {.column width="60%"}
+### Tools for academic writing
+
+::: {.callout-question}
+## How do you manage your references?
+
+::: {.fragment}
+* Zotero
+* Paperpile
+* Mendeley
+* Endnote
+* Plain-text
+:::
+:::
+
+:::
+:::
+
+![](backgrounds/isabela-kronemberger-OegFhZfw6Ok-unsplash.jpg){.image-left}
+
+## {background-image="images/rob_zotero.png" background-size="contain"}
+
+![](images/rob.png){.sticker-float-right height=160 width=160}
+
+## {background-image="images/rob_paperpile.png" background-size="contain"}
+
+![](images/rob.png){.sticker-float-right height=160 width=160}
+
+## {background-image="images/rob_mendeley.png" background-size="contain"}
+
+![](images/rob.png){.sticker-float-right height=160 width=160}
+
+## {}
+
+### References in RStudio
+
+![](images/rstudio-insert-citaton-menu.png)
+
+## {}
+
+### Literate programming
+
+::: columns
+::: {.column width="60%"}
+Writing with embedded code to produce figures, tables and other output.
+
+::: {.callout-pro}
+## A perfect match for science
+
+* Ideal for reproducible articles
+* Quickly switch between output formats
+:::
+
+::: {.fragment}
+::: {.callout-paper}
+## Why Quarto?
+
+
+::: columns
+::: {.column width="300px"}
+* Actively developed
+* Language agnostic
+:::
+::: {.column width="300px"}
+* Better referencing
+* More consistent
+:::
+:::
+
+Fortunately, it's not complicated to switch!
+:::
+:::
+
+:::
+:::
+
+![](backgrounds/sander-weeteling-KABfjuSOx74-unsplash.jpg){.image-right}
+
+
+## {}
+
+### Hello, Quarto
+
+![](images/horst_quarto_schematic.png)
+
+*Artwork from "Hello, Quarto" keynote by Julia Lowndes and Mine Cetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.*
+
+
+## {}
+
+### Hello, Quarto (and pandoc!)
+
+![](images/rstudio-qmd-how-it-works.png)
+
+<br>
+<br>
+<br>
+
+*<https://quarto.org/docs/get-started/hello/rstudio.html>*
+
+
+## {}
+
+### Hello, Quarto (demo)
+
+::: columns
+::: {.column width="60%"}
+
+![](images/quarto_basics.png){}
+
+<https://quarto.org/docs/get-started/hello/rstudio.html>
+
+:::
+:::
+
+![](backgrounds/sander-weeteling-KABfjuSOx74-unsplash.jpg){.image-right}
+
+
+## {}
+
+::: columns
+::: {.column width="40%"}
+:::
+::: {.column width="60%"}
+
+### Templates for Journal articles
+
+![](images/quarto-journals.png)
+
+<https://github.com/quarto-journals>
+
+:::
+:::
+
+![](backgrounds/chris-lee-70l1tDAI6rM-unsplash.jpg){.image-left}
+
+
+## {}
+
+::: columns
+::: {.column width="40%"}
+:::
+::: {.column width="60%"}
+
+### Templates for Monash University
+
+![](images/quarto-monash.png)
+
+[https://github.com/numbats](https://github.com/search?q=org%3Anumbats+quarto&type=repositories>)
+
+:::
+:::
+
+![](backgrounds/chris-lee-70l1tDAI6rM-unsplash.jpg){.image-left}
+
+## {}
+
+::: columns
+::: {.column width="40%"}
+:::
+::: {.column width="60%"}
+
+### Quarto Manuscripts
+
+* A Quarto project for academic work
+* Provides a place for multiple formats
+
+(coming soon!)
+
+
+::: {.callout-link}
+
+## More information
+
+* <https://quarto.org/docs/manuscripts/>
+
+* <https://mine.quarto.pub/manuscripts-conf23>
+
+:::
+
+
+:::
+:::
+
+![](backgrounds/chris-lee-70l1tDAI6rM-unsplash.jpg){.image-left}
+
+
+## {}
+
+::: columns
+::: {.column width="40%"}
+:::
+::: {.column width="60%"}
+
+### Quarto can do lots!
+
+Including...
+
+* Provide interactive elements
+* Produce slides (like this one!)
+* Make websites
+* Much more...
+
+::: {.callout-link}
+
+## The ultimate Quarto resources
+
+* <https://quarto.org/docs/guide/>
+* <https://github.com/mcanouil/awesome-quarto>
+
+:::
+
+
+:::
+:::
+
+![](backgrounds/chris-lee-70l1tDAI6rM-unsplash.jpg){.image-left}
+
+## {}
+
+::: columns
+::: {.column width="60%"}
+
+### Developing your academic brand
+
+::: {.callout-pro}
+## Promoting you and your research
+
+* Increases opportunity
+* More attention for your work
+* Broader application of your research
+:::
+
+::: {.fragment}
+::: {.callout-tip}
+## Your online brand with Quarto
+
+Today we'll make a website to share research with Quarto
+
+* A Quarto website contains many `.qmd` files.
+* Typically there is one file per webpage or post.
+::: 
+:::
+
+
+:::
+:::
+
+![](backgrounds/david-pisnoy-46juD4zY1XA-unsplash.jpg){.image-right}
+
+
+## {}
+
+::: columns
+::: {.column width="60%"}
+
+### Developing your academic brand
+
+::: {.callout-link}
+## Examples of websites from Monash
+
+* Rob (<https://robjhyndman.com/>)
+* Earo (<https://earo.me/>, <https://thesis.earo.me/>)
+* Cynthia (<https://www.cynthiahqy.com/>)
+
+:::
+
+::: {.fragment}
+::: {.callout-tip}
+## Let's create your Quarto website
+
+<https://quarto.org/docs/websites/>
+::: 
+:::
+
+
+:::
+:::
+
+![](backgrounds/david-pisnoy-46juD4zY1XA-unsplash.jpg){.image-right}
+
+## {}
+
+::: columns
+::: {.column width="60%"}
+
+### Create your Quarto website
+
+::: {.callout-pro}
+## Suggestions
+
+* Change the landing page to use an 'about' template.
+* Add links to your social accounts
+* Advanced: Create a listing for your work (e.g. software)
+
+:::
+
+::: {.callout-tip}
+## Tips
+
+* Focus on content for now, style can be added later
+* Look at the source code of gallery examples you like
+:::
+
+::: {.callout-link}
+## Useful resources
+
+* <https://quarto.org/docs/websites/>
+* <https://quarto.org/docs/gallery/#websites>
+::: 
+
+:::
+:::
+
+```{r}
+countdown::countdown(minutes = 30, color_background = "white")
+```
+
+![](backgrounds/david-pisnoy-46juD4zY1XA-unsplash.jpg){.image-right}
+
+## {}
+
+::: columns
+::: {.column width="60%"}
+
+### Publishing your website
+
+::: {.callout-link}
+## Share your work with a broader audience
+
+There are many publishing options for Quarto:
+
+* <https://quarto.org/docs/publishing/>
+:::
+
+::: {.callout-tip}
+## Today we'll try GitHub Pages
+
+Using GitHub pages works best with GitHub repositories.
+
+* <https://quarto.org/docs/publishing/github-pages.html>
+:::
+
+::: {.callout-pro}
+## Publishing to GitHub pages
+
+After setting up a git repo with GitHub remote, simply use:
+
+`quarto publish gh-pages`
+:::
+
+
+:::
+:::
+
+![](backgrounds/david-pisnoy-46juD4zY1XA-unsplash.jpg){.image-right}
+
+
+## Thanks for your time!
+
+::: columns
+::: {.column width="60%"}
+
+::: {.callout-tip}
+## Final remarks
+
+* Think about how you share your research.
+* Build your website and personal brand.
+:::
+
+::: {.callout-link}
+
+## Useful links
+
+![](resources/forum.svg){.icon} [social.mitchelloharawild.com](https://social.mitchelloharawild.com/)
+
+![](resources/projector-screen-outline.svg){.icon} [slides.mitchelloharawild.com/research-practices-quarto](https://slides.mitchelloharawild.com/research-practices-quarto)
+
+![](resources/github.svg){.icon} [mitchelloharawild/talk-research-practices-quarto](https://github.com/mitchelloharawild/talk-research-practices-quarto)
+
+:::
+:::
+:::
+
+![](backgrounds/max-saeling-_CGxNOLM1gQ-unsplash.jpg){.image-right}
+
+<!-- Made with :heart: and [Quarto](https://quarto.org/). -->
+
+
+## Unsplash credits
+
+::: {.callout-unsplash}
+
+## Thanks to these Unsplash contributors for their photos
+
+```{r unsplash}
+#| echo: FALSE
+#| cache: TRUE
+library(httr)
+library(purrr)
+unsplash_pattern <- ".*-(.{11})-unsplash\\.jpg$"
+slides <- readLines("index.qmd")
+backgrounds <- slides[grepl("backgrounds/.+?unsplash.jpg", slides)]
+images <- unique(sub(".*\\(backgrounds/(.+?)\\).*", "\\1", backgrounds))
+images <- images[grepl(unsplash_pattern, images)]
+ids <- sub(unsplash_pattern, "\\1", images)
+
+get_unsplash_credit <- function(id) {
+  unsplash_url <- "https://api.unsplash.com/" 
+  my_response <- httr::GET(unsplash_url, path = c("photos", id), query = list(client_id=Sys.getenv("UNSPLASH_ACCESS")))
+  xml <- content(my_response)
+  
+  name <- xml$user$name
+  desc <- xml$description%||%"Photo"
+  sprintf(
+    "* %s: [%s%s](%s)",
+    name,
+    strtrim(desc,60-nchar(name)),
+    if(nchar(desc)>(60-nchar(name))) "..." else "",
+    modify_url("https://unsplash.com/", path = file.path("photos", xml$id))
+  )
+}
+htmltools::includeMarkdown(paste0(map_chr(ids, get_unsplash_credit), collapse = "\n"))
+```
+
+:::
+
+<!-- ## References -->
